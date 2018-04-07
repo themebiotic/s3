@@ -1,0 +1,76 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+
+*, 
+::after, 
+::before {
+    box-sizing: border-box;
+}
+html,body {
+    font-family: BlinkMacSystemFont, -apple-system, "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #555;
+    background-color: #fff;
+    line-height: 1.5;
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #000;
+}
+a {
+    color: #6C5CE7;
+    text-decoration: none;
+}
+a:hover {
+    color: #50E3C2;
+    text-decoration: underline;
+}
+
+.container {
+    display: block;
+    max-width: 50em;
+    width: 100%;
+    padding: 1.5em;
+    margin: auto;
+}
+
+table {
+    border: solid 1px #dedede;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+thead th {
+    background-color: #f5f5f5;
+    border: solid 1px #dedede;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+tbody td {
+    border: solid 1px #dedede;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    vertical-align: middle;
+}
+
+tr td  img {
+    margin-right: .5em;
+}
+tr td p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eee;
+}
